@@ -1,0 +1,104 @@
+            body {
+                background-color: gainsboro;
+            }
+            
+            h1.review-title {
+                text-align: center;
+                font-size: 65px;
+            }
+            
+            p.ventas {
+                margin-bottom: 0px;
+                margin-left: 10px;
+                /* font-size: 25px; */
+                z-index: 1;
+            }
+            
+            #ventas-box {
+                width: 250px;
+                height: 125px;
+                color: white;
+                background-color: rgba(0, 0, 255, 0.6);
+                border-radius: 10px;
+            }
+            
+            p.platillo {
+                margin-bottom: 0px;
+                margin-left: 10px;
+            }
+            
+            #platillo-box {
+                width: 250px;
+                height: 125px;
+                color: white;
+                background-color: rgba(255, 0, 0, 0.6);
+                border-radius: 10px;
+            }
+            
+            p.bebida {
+                margin-bottom: 0px;
+                margin-left: 10px;
+            }
+            
+            #bebida-box {
+                width: 300px;
+                height: 125px;
+                color: white;
+                background-color: rgba(107, 194, 130, 1);
+                border-radius: 10px;
+            }
+            
+            p.visitas {
+                margin-bottom: 0px;
+                margin-left: 10px;
+            }
+            
+            #visitas-box {
+                width: 250px;
+                height: 125px;
+                color: white;
+                background-color: rgb(151, 16, 192, 0.8);
+                border-radius: 10px;
+            }
+            
+            #verticaline {
+                height: 500px;
+                background-color: gainsboro;
+                border-left: 6px solid;
+            }
+            
+            .sidenav {
+                height: 200%;
+                /* Full-height: remove this if you want "auto" height */
+                width: 130px;
+                /* Set the width of the sidebar */
+                position: absolute;
+                /* Fixed Sidebar (stay in place on scroll) */
+                /* z-index: -1; */
+                left: 0;
+                background-color: rgb(217, 83, 79, 1.5);
+                overflow-x: hidden;
+                /* Disable horizontal scroll */
+                padding-top: 20px;
+                margin-top: 0px;
+            }
+            
+            .sidenav a {
+                padding: 5px 8px 6px 16px;
+                text-decoration: none;
+                font-size: 20px;
+                color: whitesmoke;
+                display: block;
+                font-family: "Arial";
+                margin-top: 25px;
+            }
+            
+            .sidenav a:hover {
+                color: rgb(42, 98, 61);
+            }
+            
+            .main {
+                margin-left: 130px;
+                /* Same as the width of the sidebar */
+                padding: 0px 10px;
+            }
